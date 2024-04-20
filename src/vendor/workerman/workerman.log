@@ -1,0 +1,508 @@
+2024-04-09 09:06:41 pid:1974513 Workerman[wsserver.php] start in DEBUG mode
+2024-04-09 09:12:01 pid:1974513 Workerman[wsserver.php] stopping ...
+2024-04-09 09:12:01 pid:1974513 Workerman[wsserver.php] has been stopped
+2024-04-09 09:12:11 pid:1975902 Workerman[wsserver.php] start in DEBUG mode
+2024-04-09 09:15:20 pid:1975902 Workerman[wsserver.php] stopping ...
+2024-04-09 09:15:20 pid:1975902 Workerman[wsserver.php] has been stopped
+2024-04-09 09:21:51 pid:1564 Workerman[wsserver.php] start in DEBUG mode
+2024-04-09 09:52:05 pid:1564 Workerman[wsserver.php] stopping ...
+2024-04-09 09:52:05 pid:1564 Workerman[wsserver.php] has been stopped
+2024-04-13 09:01:54 pid:6 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:12:49 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:16:59 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:25:34 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:38:50 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:41:23 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:41:59 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 09:59:52 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 10:01:54 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 10:06:04 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-13 10:06:57 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 09:06:23 pid:2597274 Workerman[wsserver.php] start in DEBUG mode
+2024-04-17 16:53:04 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 17:04:49 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 17:05:55 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 21:33:26 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 22:04:07 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 22:36:24 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 22:37:49 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 22:43:12 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 23:03:43 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 23:07:42 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-17 23:12:54 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:03:43 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:03:50 pid:11 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#7 {main}
+2024-04-20 10:03:50 pid:9 worker[none:11] exit with status 64000
+2024-04-20 10:03:57 pid:14 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 10:03:57 pid:9 worker[none:14] exit with status 64000
+2024-04-20 10:04:14 pid:15 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 10:04:14 pid:9 worker[none:15] exit with status 64000
+2024-04-20 10:04:14 pid:16 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 10:04:14 pid:9 worker[none:16] exit with status 64000
+2024-04-20 10:04:15 pid:17 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 10:04:15 pid:9 worker[none:17] exit with status 64000
+2024-04-20 10:04:16 pid:18 Error: Call to undefined function getTrailForPlayer() in /var/www/node95.webte.fei.stuba.sk/wsserver.php:44
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(146): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 10:04:16 pid:9 worker[none:18] exit with status 64000
+2024-04-20 10:05:47 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:16:55 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:24:19 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:32:14 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 10:33:09 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 11:20:22 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 12:31:30 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 14:34:04 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 14:40:59 pid:6 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 14:49:56 pid:10 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 14:49:56 pid:9 worker[none:10] exit with status 64000
+2024-04-20 14:49:57 pid:13 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:49:57 pid:9 worker[none:13] exit with status 64000
+2024-04-20 14:50:02 pid:14 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:50:02 pid:9 worker[none:14] exit with status 64000
+2024-04-20 14:50:24 pid:15 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:50:24 pid:9 worker[none:15] exit with status 64000
+2024-04-20 14:50:25 pid:16 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:50:25 pid:9 worker[none:16] exit with status 64000
+2024-04-20 14:51:13 pid:17 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:51:13 pid:9 worker[none:17] exit with status 64000
+2024-04-20 14:51:43 pid:18 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:51:43 pid:9 worker[none:18] exit with status 64000
+2024-04-20 14:57:06 pid:19 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:57:06 pid:9 worker[none:19] exit with status 64000
+2024-04-20 14:57:07 pid:20 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:57:07 pid:9 worker[none:20] exit with status 64000
+2024-04-20 14:57:09 pid:21 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(114): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:57:09 pid:9 worker[none:21] exit with status 64000
+2024-04-20 14:58:26 pid:8 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 14:58:31 pid:12 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(560): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#9 {main}
+2024-04-20 14:58:31 pid:10 worker[none:12] exit with status 64000
+2024-04-20 14:58:32 pid:15 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:32 pid:10 worker[none:15] exit with status 64000
+2024-04-20 14:58:33 pid:16 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:33 pid:10 worker[none:16] exit with status 64000
+2024-04-20 14:58:34 pid:17 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:34 pid:10 worker[none:17] exit with status 64000
+2024-04-20 14:58:55 pid:18 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:55 pid:10 worker[none:18] exit with status 64000
+2024-04-20 14:58:55 pid:19 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:55 pid:10 worker[none:19] exit with status 64000
+2024-04-20 14:58:56 pid:20 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:56 pid:10 worker[none:20] exit with status 64000
+2024-04-20 14:58:56 pid:21 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:56 pid:10 worker[none:21] exit with status 64000
+2024-04-20 14:58:57 pid:22 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:57 pid:10 worker[none:22] exit with status 64000
+2024-04-20 14:58:57 pid:23 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:58:57 pid:10 worker[none:23] exit with status 64000
+2024-04-20 14:59:11 pid:24 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:11 pid:10 worker[none:24] exit with status 64000
+2024-04-20 14:59:12 pid:25 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:12 pid:10 worker[none:25] exit with status 64000
+2024-04-20 14:59:12 pid:26 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:12 pid:10 worker[none:26] exit with status 64000
+2024-04-20 14:59:13 pid:27 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:13 pid:10 worker[none:27] exit with status 64000
+2024-04-20 14:59:13 pid:28 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:13 pid:10 worker[none:28] exit with status 64000
+2024-04-20 14:59:52 pid:29 Exception: You can't send(NULL) to client, you need to convert it to a string.  in /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Protocols/Websocket.php:243
+Stack trace:
+#0 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Connection/TcpConnection.php(329): Workerman\Protocols\Websocket::encode(NULL, Object(Workerman\Connection\TcpConnection))
+#1 /var/www/node95.webte.fei.stuba.sk/wsserver.php(53): Workerman\Connection\TcpConnection->send(NULL)
+#2 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(2579): {closure}(Object(Workerman\Connection\TcpConnection))
+#3 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Events/Select.php(311): Workerman\Worker->acceptConnection(Resource id #21)
+#4 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1638): Workerman\Events\Select->loop()
+#5 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1429): Workerman\Worker::forkOneWorkerForLinux(Object(Workerman\Worker))
+#6 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1403): Workerman\Worker::forkWorkersForLinux()
+#7 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1788): Workerman\Worker::forkWorkers()
+#8 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(1724): Workerman\Worker::monitorWorkersForLinux()
+#9 /var/www/node95.webte.fei.stuba.sk/vendor/workerman/workerman/Worker.php(562): Workerman\Worker::monitorWorkers()
+#10 /var/www/node95.webte.fei.stuba.sk/wsserver.php(124): Workerman\Worker::runAll()
+#11 {main}
+2024-04-20 14:59:52 pid:10 worker[none:29] exit with status 64000
+2024-04-20 15:01:20 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 15:08:13 pid:7 Workerman[./wsserver.php] start in DAEMON mode
+2024-04-20 15:13:36 pid:7 Workerman[./wsserver.php] start in DAEMON mode
